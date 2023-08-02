@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<robot name="robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- Includes -->
+    <xacro:include filename="$(find scout_description)/urdf/caytu/ydlidar.xacro" />
+    <!--<xacro:include
+    filename="$(find scout_description)/urdf/caytu/zed2.xacro" /> -->
+
+    <xacro:include filename="$(find scout_description)/urdf/caytu/zed2_front.xacro" />
+    <xacro:include filename="$(find scout_description)/urdf/caytu/zed2_rear.xacro" />
+    <xacro:include filename="$(find scout_description)/urdf/caytu/gps.xacro" />
+
+    <!-- <xacro:include filename="$(find scout_description)/urdf/caytu/side_cameras.xacro" /> -->
+
+    <!-- ydlidar -->
+    <xacro:ydlidar_sensor parent="base_link">
+        <origin xyz="0.0 0.0 -0.150" rpy="0.0 0.0 0.0" />
+        <!-- <origin xyz="0.25 0 0.24" rpy="0 0 0" /> -->
+    </xacro:ydlidar_sensor>
+
+    <!-- gps -->
+    <xacro:gps_sensor parent="base_link">
+        <origin xyz="0 0 0.2" rpy="0 0 0" />
+    </xacro:gps_sensor>
+
+    <!-- zed2 front camera -->
+    <xacro:zed2_front parent="base_link">
+        <origin xyz="0.40 -0.011 0.22" rpy="0 0 0" />
+    </xacro:zed2_front>
+
+    <!-- zed2 rear camera -->
+    <xacro:zed2_rear parent="base_link">
+        <!-- <origin xyz="-0.37 -0.0095 0.20" rpy="3.14 0 0" /> -->
+        <origin xyz="-0.37 -0.0095 0.20" rpy="0 0 3.14" />
+    </xacro:zed2_rear>
+
+</robot>
