@@ -1,0 +1,88 @@
+[0.233s] Invoking command in '/home/ubuntu/ros2_ws/src/build/scout_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_package:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/caytu-robot-ros2/scout_description -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/src/install/scout_description
+[0.288s] -- The C compiler identification is GNU 9.4.0
+[0.401s] -- The CXX compiler identification is GNU 9.4.0
+[0.412s] -- Check for working C compiler: /usr/bin/cc
+[0.482s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.483s] -- Detecting C compiler ABI info
+[0.552s] -- Detecting C compiler ABI info - done
+[0.563s] -- Detecting C compile features
+[0.564s] -- Detecting C compile features - done
+[0.568s] -- Check for working CXX compiler: /usr/bin/c++
+[0.647s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.648s] -- Detecting CXX compiler ABI info
+[0.728s] -- Detecting CXX compiler ABI info - done
+[0.739s] -- Detecting CXX compile features
+[0.739s] -- Detecting CXX compile features - done
+[0.745s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.776s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.776s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.971s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.059s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.064s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.064s] -- Added test 'lint_cmake' to check CMake code style
+[1.065s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.067s] -- Added test 'xmllint' to check XML markup files
+[1.070s] -- Configuring done
+[1.072s] -- Generating done
+[1.073s] -- Build files have been written to: /home/ubuntu/ros2_ws/src/build/scout_description
+[1.082s] Invoked command in '/home/ubuntu/ros2_ws/src/build/scout_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_package:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/caytu-robot-ros2/scout_description -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/src/install/scout_description
+[1.085s] Invoking command in '/home/ubuntu/ros2_ws/src/build/scout_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_package:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/src/build/scout_description -- -j16 -l16
+[1.123s] Invoked command in '/home/ubuntu/ros2_ws/src/build/scout_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_package:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/src/build/scout_description -- -j16 -l16
+[1.184s] Invoking command in '/home/ubuntu/ros2_ws/src/build/scout_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_package:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/src/build/scout_description
+[1.191s] -- Install configuration: ""
+[1.192s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/launch
+[1.192s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/launch/spawn_entity.py
+[1.192s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/launch/caytu_base_rviz.launch.py
+[1.192s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/launch/caytu_base_gazebo.launch.py
+[1.192s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/launch/caytu_base_rviz2.launch.py
+[1.192s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/meshes
+[1.192s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/meshes/ydlidar.dae
+[1.215s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/meshes/wheel.dae
+[1.229s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/meshes/ZED2.dae
+[1.229s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/meshes/caytu_base.stl
+[1.420s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf
+[1.420s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/scout_mini.urdf
+[1.420s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/caytu
+[1.420s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/caytu/side_cameras.xacro
+[1.421s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/caytu/gps.xacro
+[1.421s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/caytu/caytu_base_reference.xacro
+[1.422s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/caytu/caytu_base.xacro
+[1.422s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/caytu/ydlidar.xacro
+[1.422s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/caytu/zed2_front.xacro
+[1.423s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/caytu/empty.urdf
+[1.423s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/caytu/zed2_rear.xacro
+[1.424s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/caytu/sensors.xacro
+[1.424s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/mini.xacro
+[1.424s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/scout_v2.gazebo
+[1.424s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/scout_mini.xacro
+[1.425s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/scout_wheel_type2.xacro
+[1.425s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/scout_mini_wheel_3.xacro
+[1.425s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/empty.urdf
+[1.426s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/scout_mini_wheel_1.xacro
+[1.426s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/scout_mini_wheel_4.xacro
+[1.427s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/scout_wheel.gazebo
+[1.427s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/scout_mini_wheel.gazebo
+[1.427s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/scout_mini_wheel_2.xacro
+[1.428s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/scout_mini.gazebo
+[1.428s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/scout_wheel_type1.xacro
+[1.428s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/scout_v2.xacro
+[1.429s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/rviz
+[1.429s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/rviz/scout_mini_model_display.rviz
+[1.429s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/rviz/navigation.rviz
+[1.430s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/rviz/model_display.rviz
+[1.430s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/ament_index/resource_index/package_run_dependencies/scout_description
+[1.431s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/ament_index/resource_index/parent_prefix_path/scout_description
+[1.431s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/environment/ament_prefix_path.sh
+[1.431s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/environment/ament_prefix_path.dsv
+[1.431s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/environment/path.sh
+[1.431s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/environment/path.dsv
+[1.431s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/local_setup.bash
+[1.431s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/local_setup.sh
+[1.431s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/local_setup.zsh
+[1.431s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/local_setup.dsv
+[1.432s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/package.dsv
+[1.432s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/ament_index/resource_index/packages/scout_description
+[1.432s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/cmake/scout_descriptionConfig.cmake
+[1.432s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/cmake/scout_descriptionConfig-version.cmake
+[1.432s] -- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/package.xml
+[1.441s] Invoked command in '/home/ubuntu/ros2_ws/src/build/scout_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_package:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/src/build/scout_description

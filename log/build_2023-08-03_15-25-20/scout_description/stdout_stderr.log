@@ -1,0 +1,82 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/ros2_ws/src/build/scout_description
+-- Install configuration: ""
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/launch
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/launch/spawn_entity.py
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/launch/caytu_base_rviz.launch.py
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/launch/caytu_base_gazebo.launch.py
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/launch/caytu_base_rviz2.launch.py
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/meshes
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/meshes/ydlidar.dae
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/meshes/wheel.dae
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/meshes/ZED2.dae
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/meshes/caytu_base.stl
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/scout_mini.urdf
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/caytu
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/caytu/side_cameras.xacro
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/caytu/gps.xacro
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/caytu/caytu_base_reference.xacro
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/caytu/caytu_base.xacro
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/caytu/ydlidar.xacro
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/caytu/zed2_front.xacro
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/caytu/empty.urdf
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/caytu/zed2_rear.xacro
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/caytu/sensors.xacro
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/mini.xacro
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/scout_v2.gazebo
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/scout_mini.xacro
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/scout_wheel_type2.xacro
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/scout_mini_wheel_3.xacro
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/empty.urdf
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/scout_mini_wheel_1.xacro
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/scout_mini_wheel_4.xacro
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/scout_wheel.gazebo
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/scout_mini_wheel.gazebo
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/scout_mini_wheel_2.xacro
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/scout_mini.gazebo
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/scout_wheel_type1.xacro
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/urdf/scout_v2.xacro
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/rviz
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/rviz/scout_mini_model_display.rviz
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/rviz/navigation.rviz
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/rviz/model_display.rviz
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/ament_index/resource_index/package_run_dependencies/scout_description
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/ament_index/resource_index/parent_prefix_path/scout_description
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/environment/path.sh
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/environment/path.dsv
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/local_setup.bash
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/local_setup.sh
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/local_setup.zsh
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/local_setup.dsv
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/package.dsv
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/ament_index/resource_index/packages/scout_description
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/cmake/scout_descriptionConfig.cmake
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/cmake/scout_descriptionConfig-version.cmake
+-- Installing: /home/ubuntu/ros2_ws/src/install/scout_description/share/scout_description/package.xml
